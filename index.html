@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>heavy project</title>
+  <link rel="stylesheet" href="style.css">
+  <script>
+    const menuToggle = document.getElementById("menu-toggle");
+    const navBar = document.getElementById("nav-bar");
+
+    menuToggle.addEventListener("click", () => {
+        const navLinks = document.querySelector(".nav-links");
+        navLinks.classList.toggle("active");
+    });
+</script>
+
+</head>
+<body>
+    <ul id="nav-bar">
+        <h1 class="ul">Company <br>Name</h1>
+        <button class="menu-toggle" id="menu-toggle">&#9776;</button> <!-- Menu Button -->
+        <div class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#Showcase">Showcase</a></li>
+            <li><a href="#Services">Services</a></li>
+            <li><a href="#Designers">Designers</a></li>
+            <li><a href="#Packages">Packages</a></li>
+            <li><a href="#Contact">Contact</a></li>
+        </div>
+    </ul>    
+  <div class="container">
+  <h1 class="name">Interior Design</h1>
+  <h1 class="members">Showcase.</h1>
+  <hr class="slash">
+  <img src="atrium.jpg" alt="atrium" class="img">
+  <img src="diningroom.jpg" alt="atrium" class="img">
+  <img src="kitchenconcrete.jpg" alt="atrium" class="img">
+  <img src="bedroom.jpg" alt="atrium" class="img">
+  <img src="livingroom.jpg" alt="atrium" class="img">
+  <img src="livingroom2.jpg" alt="atrium" class="img">
+  <h1 class="members">Services.</h1>
+  <hr class="slash">
+  <p class="para">We are a interior design service that focus on what's best for your home and what's best for you! <br><br>
+
+    Some text about our services - what we do and what we offer. We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    <h1 class="members">Designers.</h1>
+    <hr class="slash">
+    <p class="para">The best team in the world. <br><br>
+
+      We are lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. <br><br>
+      
+      <b>Our designers are thoughtfully chosen:</b></p>
+      <div class="cards">
+        <div class="card">
+          <img src="team2.jpg" class="card-img-top" alt="...">
+          <h2 class="pname">John Doe</h2>
+          <h5 class="card-title">CEO & Founder</h5>
+          <p class="card-text">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+        </div>
+    
+        <div class="card">
+          <img src="team1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h2 class="pname">Jane Doe</h2>
+            <h5 class="card-title">Designer</h5>
+            <p class="card-text">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+          </div>
+        </div>
+    
+        <div class="card">
+          <img src="team3.jpg" class="card-img-top" alt="...">
+          <h2 class="pname">Mike Ross</h2>
+            <h5 class="card-title">Architect</h5>
+            <p class="card-text">Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>  
+        </div>
+      </div>
+      <h1 class="members">Packages.</h1>
+      <hr class="slash">
+      <p class="para">Some text our prices. Lorem ipsum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure</p>
+      <div class="cbody">
+      <div class="pricing-card">
+        <div class="card-header">Basic</div>
+        <div class="card-features">
+            <h3>Floorplanning</h3> <hr class="s1">
+            <h3>10 hours support</h3> <hr class="s1">
+            <h3> Photography</h3> <hr class="s1"> 
+          <h3>20% furniture discount</h3> <hr class="s1"> 
+          <h3> Good deals</h3> <hr class="s1">
+        
+        <div class="card-price">
+            <span class="price">$199</span>
+            <span class="per-room">per room</span>
+        </div>
+        <button class="sign-up">Sign Up</button>
+    </div>
+  </div>
+  <div class="pricing-card">
+    <div class="card-header2">pro</div>
+    <div class="card-features">
+        <h3>Floorplanning</h3> <hr class="s1">
+        <h3>50 hours support</h3> <hr class="s1">
+        <h3> Photography</h3> <hr class="s1"> 
+      <h3>50% furniture discount</h3> <hr class="s1"> 
+      <h3> GREAT deals</h3> <hr class="s1">
+    
+    <div class="card-price">
+        <span class="price">$ 249</span>
+        <span class="per-room">per room</span>
+    </div>
+    <button class="sign-up2">Sign Up</button>
+</div>
+</div>
+</div>
+<h2 class="members">Contact.</h2>
+<hr class="slash">
+<p>Do you want us to style your home? Fill out the form and fill me in with the details :) We love meeting new people!</p>
+<form>
+  <label for="name">Name</label><br>
+  <input type="text" id="name" class="box" placeholder="Enter Your Name"><br><br>
+  <label for="Email">Email</label><br>
+  <input type="Email" class="box" id="Email" placeholder="Enter Your Email"><br><br>
+  <label for="Message">Message</label><br>
+  <input type="message" class="box" id="Message" placeholder="Contect Us Know"><br><br>
+  <button class="message" type="submit">Send Message</button>
+
+</form>
+</body>
+</html>
